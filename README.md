@@ -128,13 +128,13 @@ Tools and technologies used in the project:
 # Dashboard Screenshots
 
 ## KPI and monthly revenue trend 
-![Dashboard Page 1](images/1_dashboard_overview.png)
+![Dashboard Page 1](dashboard images/1_dashboard_overview.png)
 
 ## top product categories and state sales
-![Dashboard Page 2](images/2_top_product_categories_and_state_sales.png)
+![Dashboard Page 2](dashboard images/2_top_product_categories_and_state_sales.png)
 
 ## seller city and order status
-![Dashboard Page 3](images/3_seller_city_and_order_status_analysis.png)
+![Dashboard Page 3](dashboard images/3_seller_city_and_order_status_analysis.png)
 
 ---
 
@@ -142,10 +142,9 @@ Tools and technologies used in the project:
 
 Project files included:
 
-- Power BI Dashboard (.pbix)
 - Python Analysis Script (.py)
 - SQL Queries (.sql)
-- Final Cleaned Dataset (.csv)
+- Final Cleaned Dataset (Sample) (.csv)
 - Dashboard Screenshots
 - README Documentation
 
