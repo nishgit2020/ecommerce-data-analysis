@@ -1,4 +1,4 @@
-# ecommerce-sales-analysis using Python, SQL & Power BI
+# E-Commerce Sales Analysis using Python, SQL & Power BI
 
 ## Project Overview
 
