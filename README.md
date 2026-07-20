@@ -1,11 +1,11 @@
-# E-Commerce Sales Analysis using Python, SQL & Power BI
+# E-Commerce Sales Analysis using Python, MySQL & Power BI
 
 ## Project Overview
 
 This project analyzes e-commerce sales data and builds an interactive dashboard to understand sales performance, customer behavior, product trends, and operational insights using Python, MySQL and Power BI.
 
 The project focuses on data cleaning, relationship analysis, aggregation handling, dashboard development, and business insight generation.
-The project also includes SQL-based analysis and KPI validation to ensure business metrics remain consistent across Python, SQL, and Power BI.
+The project also includes SQL-based analysis and KPI validation to ensure business metrics remain consistent across Python, MySQL, and Power BI.
 
 ---
 
