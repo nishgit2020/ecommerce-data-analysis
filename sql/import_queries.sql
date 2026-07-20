@@ -1,5 +1,5 @@
 -- load orders data
-LOAD DATA LOCAL INFILE 'D:/Nishant/projects/DA/project2/Data/customers.csv'
+LOAD DATA LOCAL INFILE 'Data/customers.csv'
 INTO TABLE customers
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -7,7 +7,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 -- load customers data
-LOAD DATA LOCAL INFILE 'D:/Nishant/projects/DA/project2/Data/orders.csv'
+LOAD DATA LOCAL INFILE 'Data/orders.csv'
 INTO TABLE orders
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -27,7 +27,7 @@ order_delivered_customer_date = NULLIF(@order_delivered_customer_date,''),
 order_estimated_delivery_date = NULLIF(@order_estimated_delivery_date,'');
 
 -- load products data
-LOAD DATA LOCAL INFILE 'D:/Nishant/projects/DA/project2/Data/clean_products.csv'
+LOAD DATA LOCAL INFILE 'Data/clean_products.csv'
 INTO TABLE products
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -35,7 +35,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 -- load sellers data
-LOAD DATA LOCAL INFILE 'D:/Nishant/projects/DA/project2/Data/sellers.csv'
+LOAD DATA LOCAL INFILE 'Data/sellers.csv'
 INTO TABLE sellers
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -43,7 +43,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 -- load order_items data
-LOAD DATA LOCAL INFILE 'D:/Nishant/projects/DA/project2/Data/order_items.csv'
+LOAD DATA LOCAL INFILE 'Data/order_items.csv'
 INTO TABLE order_items
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -51,7 +51,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 -- load order_payments data
-LOAD DATA LOCAL INFILE 'D:/Nishant/projects/DA/project2/Data/order_payments.csv'
+LOAD DATA LOCAL INFILE 'Data/order_payments.csv'
 INTO TABLE order_payments
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -70,14 +70,14 @@ IGNORE 1 ROWS;
 -- );
 
 -- load order_payments_agg data
-LOAD DATA LOCAL INFILE 'D:/Nishant/projects/DA/project2/Data/clean_payments.csv'
+LOAD DATA LOCAL INFILE 'Data/clean_payments.csv'
 INTO TABLE order_payments_agg
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
-LOAD DATA INFILE 'D:/Nishant/projects/DA/project2/Data/order_reviews_clean.csv'
+LOAD DATA INFILE 'Data/order_reviews_clean.csv'
 INTO TABLE order_reviews_staging
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -104,7 +104,7 @@ SELECT
 FROM order_reviews_staging;
 
 -- load geolocation data
-LOAD DATA LOCAL INFILE 'D:/Nishant/projects/DA/project2/Data/clean_geolocation.csv'
+LOAD DATA LOCAL INFILE 'Data/clean_geolocation.csv'
 INTO TABLE geolocation
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -112,7 +112,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 -- load product category name data
-LOAD DATA LOCAL INFILE 'D:/Nishant/projects/DA/project2/Data/product_category_name_translation.csv'
+LOAD DATA LOCAL INFILE 'Data/product_category_name_translation.csv'
 INTO TABLE product_category_name_translation
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
